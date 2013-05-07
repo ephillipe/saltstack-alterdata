@@ -13,7 +13,7 @@ deploykey:
 
 publickey:
   file.managed:
-    - name: /root/.ssh/github.pub
+    - name: /root/.ssh/git.pub
     - source: salt://deploy/id_rsa.pub
     - makedirs: True
     - mode: 600

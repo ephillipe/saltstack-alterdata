@@ -16,9 +16,7 @@ webapp:
     - force: true
     - require:
       - pkg: app-pkgs
-      - file: deploykey
       - file: publickey
-      - file: ssh_config
       - pkg: nginx
       - pkg: supervisor
 

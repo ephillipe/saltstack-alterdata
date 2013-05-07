@@ -1,5 +1,5 @@
 Host github.com
-        User git
-        HostName github.com
-        StrictHostKeyChecking no
-        IdentityFile /root/.ssh/github
+User git
+HostName github.com
+StrictHostKeyChecking no
+IdentityFile /root/.ssh/github
