@@ -1,6 +1,6 @@
 include:
-	- requirements
-
+    - requirements
+	
 /var/www/app:
     virtualenv.managed:
         - no_site_packages: True
