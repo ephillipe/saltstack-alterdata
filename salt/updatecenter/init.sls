@@ -23,10 +23,10 @@ webapp:
       - pkg: supervisor
 
 /var/www/venv:
-  virtualenv.managed:
+  virtualenv.manage:
+    - requirements: /var/www/app/requirements.txt
     - no_site_packages: True
-      - requirements: /var/www/app/requirements.txt
-      clear: false
-      - require:
-        - pkg: app-pkgs
+    - clear: false
+    - require:
+      - pkg: app-pkgs
 
