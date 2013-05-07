@@ -1,6 +1,6 @@
 packages:
-    pkg.installed:
-        - names:
+	pkg.installed:
+		- names:
 			- git
 			- python-dev
 			- python-virtualenv
