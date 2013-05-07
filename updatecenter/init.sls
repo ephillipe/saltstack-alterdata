@@ -1,5 +1,5 @@
 include:
-	- requirements
+    - requirements
 
 /var/www/app:
     virtualenv.managed:
