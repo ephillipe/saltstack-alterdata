@@ -9,3 +9,8 @@ Exemplos:
 https://github.com/esacteksab/salt-states
 
 http://saltstarters.org/example/esacteksab/salt-states
+
+
+Comandos:
+
+salt '*' state.sls updatecenter

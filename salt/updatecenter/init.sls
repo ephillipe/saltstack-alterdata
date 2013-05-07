@@ -25,8 +25,8 @@ webapp:
 /var/www/venv:
   virtualenv.managed:
     - no_site_packages: True
-      - requirements: /var/www/app/requirements.txt
-      clear: false
-      - require:
-        - pkg: app-pkgs
+    - requirements: /var/www/app/requirements.txt
+    clear: false
+    - require:
+      - pkg: app-pkgs
 
