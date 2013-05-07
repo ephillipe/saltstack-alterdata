@@ -6,4 +6,4 @@ dbpassword: myterribledbpassword
 dbhost: localhost
 dbport: 3306
 git_rev: master
-git_repo: git@github.com:username/repo.git
+git_repo: git@54.235.110.147:/git/updatecenter.git
