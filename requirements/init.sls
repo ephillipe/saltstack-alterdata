@@ -1,7 +1,7 @@
 packages:
     pkg.installed:
         - names:
-            - git
-			- python-dev            
-            - python-virtualenv
-            - python-pip
+			- git
+			- python-dev
+			- python-virtualenv
+			- python-pip

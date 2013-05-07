@@ -2,4 +2,4 @@ base:
     '*':
         - ssh
         - requirements
-        - nginx		
+        - nginx	
