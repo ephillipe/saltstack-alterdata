@@ -1,6 +1,5 @@
 base:
     '*':
         - ssh
-        - reqs
-        - nginx
-        - uwsgi
+        - requirements
+        - nginx		
